@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Aehus</title>
+    <link>https://aehuspham.github.io/categories/</link>
+    <description>Recent content in Categories on Aehus</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jul 2022 05:00:00 +0000</lastBuildDate>
+    <atom:link href="https://aehuspham.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Natural Language Processing</title>
+      <link>https://aehuspham.github.io/categories/natural-language-processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aehuspham.github.io/categories/natural-language-processing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>https://aehuspham.github.io/categories/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aehuspham.github.io/categories/architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>https://aehuspham.github.io/categories/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aehuspham.github.io/categories/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://aehuspham.github.io/categories/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aehuspham.github.io/categories/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://aehuspham.github.io/categories/technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://aehuspham.github.io/categories/technology/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
