@@ -81,8 +81,8 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      mix-blend-mode: normal;
+      filter: none;
       transition: var(--transition);
     }
 
@@ -125,7 +125,12 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Multi-modality Large Language Models',
+    'Multilingual Large Language Models',
+    'Embedding and Retrieval Models',
+    'Enhance LLM on specific task/domains',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +140,50 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello, I'm Huy Pham, an NLP Scientist with over two years of experience specializing
+              in Large Language Models (LLMs). Currently, at{' '}
+              <a href="https://zalo.ai/" target="_blank" rel="noreferrer">
+                ZaloAI
+              </a>
+              , I'm responsible for developing models for Vietnamese language tasks, image
+              captioning, dialogue systems, and model pre-training.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I’ve co-developed{' '}
+              <a
+                href="https://huggingface.co/collections/vilm/vinallama-654a099308775ce78e630a6f"
+                target="_blank"
+                rel="noreferrer">
+                VinaLLaMA
+              </a>
+              ,{' '}
+              <a
+                href="https://huggingface.co/collections/vilm/vietcuna-6549e67ce546b0737ec9931f"
+                target="_blank"
+                rel="noreferrer">
+                Vietcuna
+              </a>
+              . These two model series are among the first Large Language Models in Vietnam . I'm
+              also a co-author of{' '}
+              <a
+                href="https://aclanthology.org/2023.findings-eacl.79.pdf"
+                target="_blank"
+                rel="noreferrer">
+                ViDeBERTa
+              </a>
+              , which was accepted at{' '}
+              <a href="https://2023.eacl.org/" target="_blank" rel="noreferrer">
+                EACL 2023.
+              </a>
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I'm passionate about new technologies and innovative ideas, especially in Generative
+              AI.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are my research interests:</p>
           </div>
 
           <ul className="skills-list">
@@ -173,7 +195,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/aehus.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

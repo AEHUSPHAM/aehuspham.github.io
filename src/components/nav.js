@@ -7,7 +7,7 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
-import { IconLogo, IconHex } from '@components/icons';
+import { IconLogo } from '@components/icons';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -135,7 +135,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--green);
+          color:  #C4FDF6;
           font-size: var(--fz-xxs);
           text-align: right;
         }
@@ -145,6 +145,7 @@ const StyledLinks = styled.div`
 
   .resume-button {
     ${({ theme }) => theme.mixins.smallButton};
+    color: 
     margin-left: 15px;
     font-size: var(--fz-xs);
   }
@@ -185,18 +186,18 @@ const Nav = ({ isHome }) => {
     <div className="logo" tabIndex="-1">
       {isHome ? (
         <a href="/" aria-label="home">
-          <div className="hex-container">
+          {/* <div className="hex-container">
             <IconHex />
-          </div>
+          </div> */}
           <div className="logo-container">
             <IconLogo />
           </div>
         </a>
       ) : (
         <Link to="/" aria-label="home">
-          <div className="hex-container">
+          {/* <div className="hex-container">
             <IconHex />
-          </div>
+          </div> */}
           <div className="logo-container">
             <IconLogo />
           </div>
@@ -206,7 +207,7 @@ const Nav = ({ isHome }) => {
   );
 
   const ResumeLink = (
-    <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+    <a className="resume-button" href="/aehus_resume.pdf" target="_blank" rel="noopener noreferrer">
       Resume
     </a>
   );

@@ -46,7 +46,7 @@ const mixins = {
 
     &:hover,
     &:focus-visible {
-      color: var(--green);
+      color: #c4fdf6;
       outline: 0;
     }
   `,
@@ -54,18 +54,18 @@ const mixins = {
   inlineLink: css`
     display: inline-block;
     position: relative;
-    color: var(--green);
+    color: #c4fdf6;
     transition: var(--transition);
 
     &:hover,
     &:focus-visible {
-      color: var(--green);
+      color: #c4fdf6;
       outline: 0;
       &:after {
         width: 100%;
       }
       & > * {
-        color: var(--green) !important;
+        color: #c4fdf6 !important;
         transition: var(--transition);
       }
     }
@@ -76,7 +76,7 @@ const mixins = {
       height: 1px;
       position: relative;
       bottom: 0.37em;
-      background-color: var(--green);
+      background-color: #c4fdf6;
       opacity: 0.5;
       @media (prefers-reduced-motion: no-preference) {
         transition: var(--transition);
@@ -89,7 +89,7 @@ const mixins = {
   smallButton: css`
     color: var(--green);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid #c4fdf6;
     border-radius: var(--border-radius);
     padding: 0.75rem 1rem;
     font-size: var(--fz-xs);
@@ -110,7 +110,7 @@ const mixins = {
   `,
 
   bigButton: css`
-    color: var(--green);
+    color: #c4fdf6;
     background-color: transparent;
     border: 1px solid var(--green);
     border-radius: var(--border-radius);
@@ -155,7 +155,7 @@ const mixins = {
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: #c4fdf6;
       }
     }
   `,
