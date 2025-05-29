@@ -6,6 +6,7 @@ location: 'Ho Chi Minh City, VN'
 range: 'July 2023 - Present'
 url: 'https://www.vng.com.vn/'
 ---
+- Developed vision language models for image tagging and captioning, which are used for Zalo visual search features.
 
 - Developed vision language models for image captioning, OCR and vision question answering. Our model achieve 42.6, which is the highest results on [MTVQA](https://github.com/tanminhtran168/Vi-MTVQA)
 

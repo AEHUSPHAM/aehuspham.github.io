@@ -1,7 +1,7 @@
 ---
 date: '2023-01-21'
 title: 'ViDeBERTa'
-company: 'EACL,2023'
+company: 'EACL 2023'
 location: 'Ho Chi Minh City, VN'
 range: 'Publications - Jan 2023'
 url: 'https://arxiv.org/abs/2301.10439'
